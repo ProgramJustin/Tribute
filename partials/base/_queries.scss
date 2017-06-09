@@ -1,6 +1,10 @@
-@media screen and (max-width: 509px) {
+@media screen and (max-width: 814px) {
   .header {
     background-image: none !important;
-    background-color: lightgray;
+    background-color: #0076CE;
+    height: 300px !important;
+  }
+  .header-column-1 h1 {
+    font-size: 50px;
   }
 }
