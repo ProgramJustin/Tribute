@@ -7,7 +7,6 @@
   height: 710px;
 }
 
-
 .header-column-1 {
   @include grid-column(6);
   border: 1px solid red;
@@ -28,9 +27,8 @@
     float: right;
     list-style: none;
     display: inline-block;
-    margin: 5%;
     color: white;
-
+    margin: 2.5%;
   }
 
 }

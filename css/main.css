@@ -219,6 +219,11 @@ hr {
 #blue {
   color: blue; }
 
+.paragraphBox p {
+  font-family: monospace;
+  margin: 1%;
+  font-size: 18px; }
+
 @media screen and (max-width: 814px) {
   .header {
     background-image: none !important;
@@ -236,13 +241,32 @@ hr {
 
   .rowTwo-column-1 img {
     max-width: 100%; } }
+.social {
+  max-width: 100%;
+  height: 50px;
+  float: left;
+  margin: 1%; }
+
+.rowOne-body {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px; }
+
+.rowOne-column-1 {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  border: 1px solid green; }
+
+.rowOne-column-1 h1, .rowOne-column-1 h3 {
+  margin-top: 30px; }
+
 .rowTwo-column-1 {
   width: calc(33.33333% - 26.66667px);
   float: left;
   margin-left: 20px;
   height: 100%;
-  font-size: 22px;
-  margin-top: 5%; }
+  font-size: 22px; }
 
 .rowTwo-column-1 h2 {
   margin: 5% auto;
@@ -284,7 +308,7 @@ hr {
   float: right;
   list-style: none;
   display: inline-block;
-  margin: 5%;
-  color: white; }
+  color: white;
+  margin: 2.5%; }
 
 /*# sourceMappingURL=main.css.map */
