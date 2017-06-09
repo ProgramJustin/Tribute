@@ -1,0 +1,8 @@
+//this will style container
+* {
+  border: 1px dotted black;
+}
+.container {
+  border: 1px solid black !important;
+  @include grid-container($grid: $neat-grid);
+}
