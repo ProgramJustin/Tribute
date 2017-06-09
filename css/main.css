@@ -222,6 +222,9 @@ hr {
   margin: 1%;
   font-size: 18px; }
 
+.qoute1 h1 {
+  padding: 10%; }
+
 @media screen and (max-width: 814px) {
   .header {
     background-image: none !important;
@@ -241,7 +244,10 @@ hr {
     height: 100%; }
 
   .rowTwo-column-1 img {
-    max-width: 100%; } }
+    max-width: 100%; }
+
+  .rowThree-body {
+    height: 600px !important; } }
 .social {
   max-width: 100%;
   height: 50px;
@@ -277,8 +283,7 @@ hr {
 .rowOne-column-1 {
   width: calc(100% - 40px);
   float: left;
-  margin-left: 20px;
-  border: 1px solid green; }
+  margin-left: 20px; }
 
 .rowOne-column-1 h1, .rowOne-column-1 h3 {
   margin-top: 30px;
@@ -305,6 +310,17 @@ hr {
   position: relative;
   display: block;
   margin: auto; }
+
+.rowThree-body {
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  background-color: #c57575;
+  color: white;
+  height: 300px; }
+
+.rowThree-body .quote1 {
+  font-size: 40px; }
 
 .header {
   border: 1px solid black;
