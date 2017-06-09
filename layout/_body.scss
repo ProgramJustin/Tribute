@@ -1,0 +1,13 @@
+.rowOne-column-1 {
+  @include grid-column(4);
+  height: 350px;
+  font-size: 22px;
+  margin-top: 5%;
+  border: 1px solid red;
+
+}
+.rowOne-column-1 h2 {
+  margin: 2.5%;
+  font-family: $base-font-family;
+  color: $base-font-color;
+}

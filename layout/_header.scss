@@ -12,6 +12,15 @@
   @include grid-column(6);
   border: 1px solid red;
 
+  h1 {
+    color: white;
+    font-size: 80px;
+  }
+  h2 {
+    color: white;
+    font-size: 50px;
+  }
+
 }
 .header-column-2 {
   @extend .header-column-1 ;
@@ -21,16 +30,7 @@
     display: inline-block;
     margin: 5%;
     color: white;
-    
+
   }
 
-}
-
-h1 {
-  color: white;
-  font-size: 80px;
-}
-h2 {
-  color: white;
-  font-size: 50px;
 }

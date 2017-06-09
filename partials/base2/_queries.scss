@@ -5,6 +5,10 @@
     height: 300px !important;
   }
   .header-column-1 h1 {
-    font-size: 50px;
+    font-size: 16px !important;
+  }
+  .body .rowOne-column-1 {
+    @include grid-column(12);
+    height: 100%;
   }
 }
