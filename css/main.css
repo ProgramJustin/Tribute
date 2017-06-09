@@ -228,23 +228,35 @@ hr {
   .header-column-1 h1, .header-column-2 h1 {
     font-size: 16px !important; }
 
-  .body .rowOne-column-1 {
+  .body .rowTwo-column-1 {
     width: calc(100% - 40px);
     float: left;
-    margin-left: 20px; } }
-.rowOne-column-1 {
+    margin-left: 20px;
+    height: 100%; }
+
+  .rowTwo-column-1 img {
+    max-width: 100%; } }
+.rowTwo-column-1 {
   width: calc(33.33333% - 26.66667px);
   float: left;
   margin-left: 20px;
-  height: 350px;
+  height: 100%;
   font-size: 22px;
-  margin-top: 5%;
-  border: 1px solid red; }
+  margin-top: 5%; }
 
-.rowOne-column-1 h2 {
-  margin: 2.5%;
+.rowTwo-column-1 h2 {
+  margin: 5% auto;
+  border-bottom: 1px solid gray;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir", "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans", "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu", "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  color: #333; }
+  color: #333;
+  text-align: center; }
+
+.rowTwo-column-1 img {
+  max-width: 100%;
+  height: 150px;
+  position: relative;
+  display: block;
+  margin: auto; }
 
 .header {
   border: 1px solid black;

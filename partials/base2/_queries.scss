@@ -7,8 +7,11 @@
   .header-column-1 h1 {
     font-size: 16px !important;
   }
-  .body .rowOne-column-1 {
+  .body .rowTwo-column-1 {
     @include grid-column(12);
     height: 100%;
+  }
+  .rowTwo-column-1 img {
+    max-width: 100%;
   }
 }
