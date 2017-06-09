@@ -1,1 +1,5 @@
-
+@mixin hover {
+    box-shadow: 2px 2px solid grey;
+    border: 2px dotted darkgray;
+    border-radius: 100%;
+}

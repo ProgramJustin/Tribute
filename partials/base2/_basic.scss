@@ -7,16 +7,13 @@
 .container {
   border: 1px solid black !important;
   @include grid-container($grid: $neat-grid);
+  @include clearfix;
 }
-#red {
-  color: red;
-}
+
 #white {
   color: white;
 }
-#blue {
-  color: blue;
-}
+
 .paragraphBox p {
   font-family: monospace;
   margin: 1%;

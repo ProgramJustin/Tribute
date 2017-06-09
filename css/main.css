@@ -209,15 +209,13 @@ hr {
     clear: both;
     content: "";
     display: block; }
-
-#red {
-  color: red; }
+  .container::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 #white {
   color: white; }
-
-#blue {
-  color: blue; }
 
 .paragraphBox p {
   font-family: monospace;
@@ -247,6 +245,11 @@ hr {
   float: left;
   margin: 1%; }
 
+.social:hover {
+  box-shadow: 2px 2px solid grey;
+  border: 2px dotted darkgray;
+  border-radius: 100%; }
+
 .rowOne-body {
   width: calc(100% - 40px);
   float: left;
@@ -259,7 +262,9 @@ hr {
   border: 1px solid green; }
 
 .rowOne-column-1 h1, .rowOne-column-1 h3 {
-  margin-top: 30px; }
+  margin-top: 30px;
+  border-bottom: 1px solid #737373;
+  word-spacing: 2px; }
 
 .rowTwo-column-1 {
   width: calc(33.33333% - 26.66667px);
@@ -277,7 +282,7 @@ hr {
 
 .rowTwo-column-1 img {
   max-width: 100%;
-  height: 150px;
+  height: 250px;
   position: relative;
   display: block;
   margin: auto; }

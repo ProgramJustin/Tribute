@@ -4,3 +4,6 @@
   float: left;
   margin: 1%;
 }
+.social:hover {
+  @include hover;
+}
