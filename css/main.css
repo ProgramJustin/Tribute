@@ -10,6 +10,15 @@
     content: "";
     display: block; }
 
+#red {
+  color: red; }
+
+#white {
+  color: white; }
+
+#blue {
+  color: blue; }
+
 .header {
   border: 1px solid black;
   width: calc(100% - 40px);
@@ -25,7 +34,7 @@
 
 h1 {
   text-align: center;
-  background-color: green;
-  color: white; }
+  background-color: black;
+  text-shadow: 1px 1px white; }
 
 /*# sourceMappingURL=main.css.map */
