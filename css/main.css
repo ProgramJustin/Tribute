@@ -19,22 +19,29 @@
 #blue {
   color: blue; }
 
+@media screen and (max-width: 509px) {
+  .header {
+    background-image: none !important;
+    background-color: lightgray; } }
 .header {
   border: 1px solid black;
   width: calc(100% - 40px);
   float: left;
-  margin-left: 20px; }
+  margin-left: 20px;
+  background-image: url(../img/bernieHero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px; }
 
 .header-column-1 {
-  background-color: yellow !important;
   width: calc(100% - 40px);
   float: left;
-  margin-left: 20px;
-  height: 200px; }
+  margin-left: 20px; }
 
 h1 {
   text-align: center;
-  background-color: black;
+  color: white;
+  font-size: 60px;
   text-shadow: 1px 1px white; }
 
 /*# sourceMappingURL=main.css.map */
