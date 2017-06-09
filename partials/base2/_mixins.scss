@@ -3,3 +3,9 @@
     border: 2px dotted darkgray;
     border-radius: 100%;
 }
+@mixin headBorder {
+  border-top: none;
+  border-right: 2px solid red;
+  border-bottom: 2px solid red;
+  border-left: 2px solid red;
+}

@@ -9,7 +9,6 @@
 
 .header-column-1 {
   @include grid-column(6);
-  border: 1px solid red;
 
   h1 {
     color: white;
@@ -19,16 +18,7 @@
     color: white;
     font-size: 50px;
   }
-
 }
-.header-column-2 {
-  @extend .header-column-1 ;
-  ul li {
-    float: right;
-    list-style: none;
-    display: inline-block;
-    color: white;
-    margin: 2.5%;
-  }
-
+#redBorder {
+  @include headBorder;
 }
