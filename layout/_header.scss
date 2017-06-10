@@ -1,5 +1,4 @@
 .header {
-  border: 1px solid black;
   @include grid-column(12);
   background-image: url(../img/bernieHero.jpg);
   background-size: cover;
