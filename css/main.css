@@ -220,10 +220,22 @@ hr {
   margin: 1%;
   font-size: 18px; }
 
+.rowTwo-column-1 h2 {
+  text-align: center; }
+
+.rowTwo-column-1 img {
+  max-width: 100%;
+  height: 250px;
+  display: block;
+  margin: auto; }
+
+.rowThree-body .quote1 {
+  font-size: 38px; }
+
 @media screen and (max-width: 890px) {
   .header {
-    background-image: none !important;
-    background-color: #0076CE;
+    background-image: url(../img/berniePortrait.jpg) !important;
+    background-size: 100% !important;
     height: 300px !important; }
 
   .header-column-1 h1, .header-column-2 h1 {
@@ -240,6 +252,34 @@ hr {
 
   .rowTwo-column-1 img {
     max-width: 100%; } }
+@media screen and (min-width: 2080px) {
+  .header {
+    height: 1500px !important; }
+
+  #redBorder h1 {
+    font-size: 300px !important; }
+
+  #redBorder h2 {
+    font-size: 150px; }
+
+  .header-column-2 li a {
+    font-size: 50px; }
+
+  .paragraphBox p {
+    font-size: 50px; }
+
+  .rowOne-column-1 img {
+    height: 120px !important; }
+
+  .paragraphBox h4 {
+    font-size: 60px; }
+
+  .rowTwo-column-1 h2 {
+    font-size: 120px;
+    color: gray; }
+
+  .rowTwo-column-1 a img {
+    height: 500px !important; } }
 .social {
   max-width: 100%;
   height: 50px;
@@ -284,7 +324,8 @@ hr {
 
 .rowOne-column-1 h1 {
   margin-top: 30px;
-  border-bottom: 1px solid #737373; }
+  border-bottom: 1px solid #737373;
+  font-family: 'Raleway', sans-serif; }
 
 .rowTwo-column-1 {
   width: calc(33.33333% - 26.66667px);
@@ -292,19 +333,6 @@ hr {
   margin-left: 20px;
   height: 100%;
   font-size: 22px; }
-
-.rowTwo-column-1 h2 {
-  margin: 5% auto;
-  border-bottom: 1px solid gray;
-  font-family: Times;
-  color: #888;
-  text-align: center; }
-
-.rowTwo-column-1 img {
-  max-width: 100%;
-  height: 250px;
-  display: block;
-  margin: auto; }
 
 .rowThree-body {
   width: calc(100% - 40px);
@@ -315,9 +343,6 @@ hr {
   height: 100%;
   margin-top: 50px;
   padding: 10px; }
-
-.rowThree-body .quote1 {
-  font-size: 38px; }
 
 .header {
   width: calc(100% - 40px);

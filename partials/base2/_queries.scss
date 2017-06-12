@@ -1,7 +1,7 @@
 @media screen and (max-width: 890px) {
   .header {
-    background-image: none !important;
-    background-color: #0076CE;
+    background-image: url(../img/berniePortrait.jpg) !important;
+    background-size: 100% !important;
     height: 300px !important;
   }
   .header-column-1 h1 {
@@ -17,5 +17,38 @@
   }
   .rowTwo-column-1 img {
     max-width: 100%;
+  }
+}
+@media screen and (min-width: 2080px) {
+  .header {
+    height: 1500px !important;
+  }
+  #redBorder h1 {
+    font-size: 300px !important;
+  }
+  #redBorder h2 {
+    font-size: 150px;
+  }
+  .header-column-2 {
+    li a {
+      font-size: 50px;
+    }
+
+  }
+  .paragraphBox p {
+    font-size: 50px;
+  }
+  .rowOne-column-1 img {
+    height: 120px !important;
+  }
+  .paragraphBox h4 {
+    font-size: 60px;
+  }
+  .rowTwo-column-1 h2 {
+    font-size: 120px;
+    color: gray;
+  }
+  .rowTwo-column-1  a img {
+    height: 500px !important;
   }
 }

@@ -9,3 +9,27 @@
   border-bottom: 2px solid red;
   border-left: 2px solid red;
 }
+@mixin rowOneh1 {
+  margin-top: 30px;
+  // bourbon mixin
+  border-bottom: 1px solid shade(gray, 10%);
+  // word-spacing: 2px;
+  font-family: 'Raleway', sans-serif;
+}
+// styles h2 in row two
+
+@mixin rowTwoh2 {
+  margin: 5% auto;
+  border-bottom: 1px solid gray;
+  font-family: 'Raleway', sans-serif;
+  color: #888;
+  text-align: center;
+}
+@mixin rowThreeBody {
+  @include grid-column(12);
+  background-color: $tintBrown;
+  color: white;
+  height: 100%;
+  margin-top: 50px;
+  padding: 10px;
+}
