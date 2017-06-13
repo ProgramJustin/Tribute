@@ -4,8 +4,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 710px;
+  @include clearfix;
 }
-
 .header-column-1 {
   @include grid-column(6);
 
@@ -17,7 +17,4 @@
     color: white;
     font-size: 50px;
   }
-}
-#redBorder {
-  @include headBorder;
 }

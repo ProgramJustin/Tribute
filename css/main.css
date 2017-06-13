@@ -299,6 +299,7 @@ hr {
 
 .header a {
   text-decoration: none;
+  border-bottom: 1px solid red;
   color: white;
   font-size: 15px; }
 
@@ -317,6 +318,32 @@ hr {
 .rowTwo-column-1 img:hover {
   box-shadow: 8px 8px 8px 8px gray;
   border-radius: 100%; }
+
+.navigation {
+  border-top: 2px solid red;
+  margin: auto;
+  width: calc(100% - 40px);
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: black; }
+
+.navigation ul {
+  display: block;
+  margin: auto;
+  text-align: center; }
+  .navigation ul::after {
+    clear: both;
+    content: "";
+    display: block; }
+
+.navigation ul li {
+  display: inline;
+  text-align: center;
+  margin: 6%; }
+  .navigation ul li a {
+    color: white;
+    text-decoration: none; }
 
 .rowOne-body {
   width: calc(100% - 40px);
@@ -358,6 +385,10 @@ hr {
   background-size: cover;
   background-repeat: no-repeat;
   height: 710px; }
+  .header::after {
+    clear: both;
+    content: "";
+    display: block; }
 
 .header-column-1, .header-column-2 {
   width: calc(50% - 30px);
@@ -369,11 +400,5 @@ hr {
   .header-column-1 h2, .header-column-2 h2 {
     color: white;
     font-size: 50px; }
-
-#redBorder {
-  border-top: none;
-  border-right: 2px solid red;
-  border-bottom: 2px solid red;
-  border-left: 2px solid red; }
 
 /*# sourceMappingURL=main.css.map */
