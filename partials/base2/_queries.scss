@@ -1,11 +1,14 @@
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 836px) {
   .header {
     background-image: url(../img/berniePortrait.jpg) !important;
-    background-size: 100% !important;
-    height: 300px !important;
+    background-size: cover !important;
+    height: 425px !important;
   }
   .header-column-1 h1 {
-    font-size: 18px !important;
+    font-size: 30px !important;
+  }
+  .header-column-1 h2 {
+    font-size: 36px !important;
   }
   .header a {
     font-size: 12px !important;
@@ -50,5 +53,8 @@
   }
   .rowTwo-column-1  a img {
     height: 500px !important;
+  }
+  .quote1 h1 {
+    font-size: 200px;
   }
 }
